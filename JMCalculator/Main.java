@@ -58,7 +58,9 @@ public class Main {
                     System.err.println("Деление на ноль невозможно!");
                     e.printStackTrace();
                 }
+                
             } else throw new Error();
+            
         } catch (Error e) {
             System.err.println("Введены разные значения! " + s1 + " " + operator + " " + s2);
             e.printStackTrace();
